@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+.titulo{
+    color:rgb(0, 0, 0);
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(./Aqua.png);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+
+.form{
+
+    color:rgb(5, 21, 30);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    background-image: url(./Aqua.png);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.titu{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px ;
+    color:rgb(50, 93, 154)
+}
+
+.contenedor {
+    padding:20px;
+    display: flex;
+    justify-content:space-evenly;
+    background-image: url(./Aqua.png);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    
+}
+
+.botn1,.botn2{ 
+
+     font-family: 'Berkshire Swash', cursive;
+     font-size: 24px;
+     background-color: aqua;
+     position: relative;
+     display: inline-block;
+     padding: 15px 30px;
+     color:rgb(25, 9, 9);
+     letter-spacing:  1px;
+     text-decoration: none;
+     overflow: hidden;
+     transition: 0.2s;
+     border-radius: 8px;
+     cursor: pointer;
+
+}
+
+.botn1:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #44284d, 0 0 80px #a945c7;
+    transition-delay: 0s;
+
+}
+
+.botn2:hover:hover{
+    background: #e7560d;
+    box-shadow: 0 0 10px #e7560d, 0 0 40px #e7560d, 0 0 80px #e7560d;
+    transition-delay: 0s;
+
+}
